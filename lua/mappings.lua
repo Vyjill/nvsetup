@@ -26,3 +26,10 @@ map("n", "<leader>vh", builtin.help_tags, {})
 map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 map("t", "<Esc>", [[<C-\><C-n>]])
+
+-- below term
+map("n", "<leader>tel", [[:below :term<cr>i]])
+-- right term
+map("n", "<leader>ter", [[:vsplit<cr>:term<cr>i]])
+
+map("n", "<leader>qqq", [[:quitall<cr>]])
