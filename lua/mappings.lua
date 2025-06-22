@@ -24,3 +24,5 @@ end)
 map("n", "<leader>vh", builtin.help_tags, {})
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+map("t", "<Esc>", [[<C-\><C-n>]])
