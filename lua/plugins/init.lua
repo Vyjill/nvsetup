@@ -117,6 +117,14 @@ return {
         end,
         desc = "GitGraph - Draw",
       },
+      {
+        "<leader>gq",
+        function()
+        -- vim.cmd(':DiffviewClose'),
+          require('diffview').close()
+        end,
+        desc = "DiffView - Close",
+      },
     },
   },
   {
