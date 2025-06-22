@@ -69,17 +69,17 @@ return {
       -- compilation output, add:
       { "m00qek/baleia.nvim", tag = "v1.3.0" },
     },
-    -- config = function()
-      -- ---@type CompileModeOpts
-    --  vim.g.compile_mode = {
+    config = function()
+      ---@type CompileModeOpts
+      vim.g.compile_mode = {
           -- to add ANSI escape code support, add:
-    --      baleia_setup = true,
+          baleia_setup = true,
 
           -- to make `:Compile` replace special characters (e.g. `%`) in
           -- the command (and behave more like `:!`), add:
           -- bang_expansion = true,
-    --  }
-    --end
+      }
+    end
   },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
